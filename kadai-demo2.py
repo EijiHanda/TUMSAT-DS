@@ -31,7 +31,7 @@ def main():
     if user_answer == question['answer']:
         st.success("Correct!")
     else:
-        st.error("Incorrect. The correct answer is: {}".format(question['answer']))
+        st.error("Incorrect")
 
 if __name__=="__main__":
     main()
